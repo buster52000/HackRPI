@@ -189,7 +189,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: da5cb9eec51f74046ac6edf46f664929, type: 2}
+  - {fileID: 2100000, guid: 58aeddeeac04e414c9385d2ef3273035, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -509,7 +509,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 615f725748ac15f418b0943b0266ce4f, type: 2}
+  - {fileID: 2100000, guid: 15a7dfc8653bcf54dac202af9b0b39af, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -656,10 +656,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: a275b4ceb02da5b49a1add76f712ae94, type: 2}
+  - {fileID: 2100000, guid: 1b7e552c6be550c49b3df18e1ea8d095, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
+  m_UseLightProbes: 0
   m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1755419516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b22f7cfdb2715d0478c41090e2e21aac, type: 3}
+  m_Script: {fileID: 11500000, guid: 88942116368fcb744854ed72a83f8037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   horiSpeed: 300
@@ -773,7 +773,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: eb600506ffceae34fbd5c7b947857eae, type: 2}
+  - {fileID: 2100000, guid: 28d00c612b0e0a14f93addb726f1f4ce, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -793,7 +793,7 @@ SphereCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1755419516}
-  m_Material: {fileID: 13400000, guid: 524b05d910ff4814b8a9a77a0573e6a6, type: 2}
+  m_Material: {fileID: 13400000, guid: 5bf53723a18b6e949a30f2d4dd027e85, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
