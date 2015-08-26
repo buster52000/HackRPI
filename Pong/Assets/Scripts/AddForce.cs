@@ -10,7 +10,7 @@ public class AddForce : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody>();
-		rb.AddForce (horiSpeed, Random.Range(300,1000) , 0);
+		rb.AddForce (horiSpeed, Random.Range(-100,100) , 0);
 	}
 	
 	// Update is called once per frame
