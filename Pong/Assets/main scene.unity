@@ -256,6 +256,7 @@ GameObject:
   - 33: {fileID: 1152725175}
   - 65: {fileID: 1152725174}
   - 23: {fileID: 1152725173}
+  - 114: {fileID: 1152725177}
   m_Layer: 0
   m_Name: detect_000
   m_TagString: Untagged
@@ -294,7 +295,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1152725172}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -318,6 +319,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!114 &1152725177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1152725172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecf81032c300243bd5cb20aff3408c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1171710589
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,6 +573,7 @@ GameObject:
   - 33: {fileID: 1636816733}
   - 65: {fileID: 1636816732}
   - 23: {fileID: 1636816731}
+  - 114: {fileID: 1636816735}
   m_Layer: 0
   m_Name: detect_001
   m_TagString: Untagged
@@ -599,7 +612,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1636816730}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -623,6 +636,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1636816735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1636816730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ecf81032c300243bd5cb20aff3408c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1719573890
 GameObject:
   m_ObjectHideFlags: 0
