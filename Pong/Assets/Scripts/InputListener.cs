@@ -11,9 +11,9 @@ public class InputListener : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (transform.position.y < 4 && Input.GetAxis ("Vertical") > 0)
-			transform.position += new Vector3(0,Input.GetAxis ("Vertical"),0);
+			transform.position += new Vector3(0,Input.GetAxis ("Vertical")/2,0);
 		if (transform.position.y > -4 && Input.GetAxis ("Vertical") < 0)
-			transform.position += new Vector3(0,Input.GetAxis ("Vertical"),0);
+			transform.position += new Vector3(0,Input.GetAxis ("Vertical")/2,0);
 
 	}
 }

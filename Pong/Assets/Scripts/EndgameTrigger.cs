@@ -15,7 +15,9 @@ public class EndgameTrigger : MonoBehaviour {
 
 	void OnCollisionEnter (Collision col)
 	{
-
-			GameObject.Find ("Sphere").transform.position = new Vector3 (0, 0, 0);
+		GameObject.Find ("Sphere").transform.position = new Vector3 (0, 0, 0); 
 	}
+
+	
+
 }
